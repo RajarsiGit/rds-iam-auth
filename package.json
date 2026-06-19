@@ -1,6 +1,6 @@
 {
   "name": "rds-iam-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to generate an IAM authentication token for AWS RDS",
   "main": "index.js",
   "bin": {
@@ -12,7 +12,11 @@
     "index.js"
   ],
   "scripts": {
-    "start": "node bin/rds-iam-auth.js"
+    "start": "node bin/rds-iam-auth.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "@aws-sdk/rds-signer": "^3.1071.0"
