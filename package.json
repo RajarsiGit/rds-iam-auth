@@ -4,7 +4,7 @@
   "description": "CLI to generate an IAM authentication token for AWS RDS",
   "main": "index.js",
   "bin": {
-    "rds-iam-auth": "./bin/rds-iam-auth.js"
+    "rds-iam-auth": "bin/rds-iam-auth.js"
   },
   "files": [
     "bin",
